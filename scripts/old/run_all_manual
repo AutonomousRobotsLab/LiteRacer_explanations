@@ -1,0 +1,48 @@
+python responsibility.py -C 0 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 0 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 0 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 1 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 1 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 1 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 2 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 2 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 2 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 3 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 3 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 3 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 4 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 4 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 4 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 5 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 5 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 5 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 6 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 6 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 6 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 7 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 7 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 7 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 8 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 8 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 8 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 9 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 9 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 9 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 10 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 10 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 10 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+
+python responsibility.py -C 0 -T 5 -A responsibility_discrete -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 0 -T 5 -A responsibility -M -0.05 -X 0.05 -S 0.01 -N 201
+python responsibility.py -C 0 -T 5 -A exhaustive_observed -M -0.05 -X 0.05 -S 0.01 -N 201
+

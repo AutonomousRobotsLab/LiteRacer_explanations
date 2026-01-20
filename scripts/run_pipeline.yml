@@ -1,0 +1,39 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  generateName: run-pipeline-
+  labels:
+    kueue.x-k8s.io/queue-name:  eidf206ns-user-queue
+spec:
+  completions: 1
+  backoffLimit: 0
+  ttlSecondsAfterFinished: 300
+  template:
+    metadata:
+      name: run-pipeline-
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: tom-container
+        image: ubuntu:22.04
+        command: ["/bin/bash", "-c"]
+        args:
+          - |
+            cd /mnt/data/repos/CausalityFalsificationLiteRacer && \
+            bash scripts/run_pipeline.sh  > run_pipeline.log 2>&1
+        resources:
+          requests:
+            cpu: "4"
+            memory: "64Gi"
+            nvidia.com/gpu: 1
+          limits:
+            cpu: "4"
+            memory: "64Gi"
+            nvidia.com/gpu: 1
+        volumeMounts:
+         - mountPath: /mnt/data
+           name: volume
+      volumes:
+        - name: volume
+          persistentVolumeClaim:
+            claimName: tom
