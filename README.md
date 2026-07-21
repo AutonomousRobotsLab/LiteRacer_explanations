@@ -15,7 +15,7 @@ matplotlib==3.8.4
 shapely==2.0.1
 gym==0.26.2
 stable-baselines3==1.1.0
-≈
+torch==2.8.0
 ```
 
 ## Usage
